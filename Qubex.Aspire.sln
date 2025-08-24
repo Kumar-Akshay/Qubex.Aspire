@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Qubex.Aspire", "Qubex.Aspire\Qubex.Aspire.csproj", "{A85A58EF-69C2-42AE-B897-96DBB6F2A9EE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{49ED34CF-7945-478F-8C56-8C3475BBE608}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Qubex.API", "Qubex.API\Qubex.API.csproj", "{2455FDF4-2318-4C1F-8BC8-4E842E0E3A98}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A85A58EF-69C2-42AE-B897-96DBB6F2A9EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A85A58EF-69C2-42AE-B897-96DBB6F2A9EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A85A58EF-69C2-42AE-B897-96DBB6F2A9EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A85A58EF-69C2-42AE-B897-96DBB6F2A9EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2455FDF4-2318-4C1F-8BC8-4E842E0E3A98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2455FDF4-2318-4C1F-8BC8-4E842E0E3A98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2455FDF4-2318-4C1F-8BC8-4E842E0E3A98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2455FDF4-2318-4C1F-8BC8-4E842E0E3A98}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2455FDF4-2318-4C1F-8BC8-4E842E0E3A98} = {49ED34CF-7945-478F-8C56-8C3475BBE608}
+	EndGlobalSection
+EndGlobal
