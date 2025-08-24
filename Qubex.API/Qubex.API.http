@@ -1,0 +1,6 @@
+@Qubex.API_HostAddress = http://localhost:5179
+
+GET {{Qubex.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
