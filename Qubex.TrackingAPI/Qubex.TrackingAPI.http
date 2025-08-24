@@ -1,0 +1,6 @@
+@Qubex.TrackingAPI_HostAddress = http://localhost:5173
+
+GET {{Qubex.TrackingAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

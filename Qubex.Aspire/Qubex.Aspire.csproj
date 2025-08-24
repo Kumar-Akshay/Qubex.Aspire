@@ -12,6 +12,16 @@
 
     <ItemGroup>
         <PackageReference Include="Aspire.Hosting.AppHost" Version="9.4.1"/>
+        <PackageReference Include="Aspire.Hosting.Azure.CosmosDB" Version="9.4.1" />
+        <PackageReference Include="Aspire.Hosting.Kafka" Version="9.4.1" />
+        <PackageReference Include="Aspire.Hosting.MongoDB" Version="9.4.1" />
+        <PackageReference Include="Aspire.Hosting.PostgreSQL" Version="9.4.1" />
+        <PackageReference Include="Aspire.Hosting.Redis" Version="9.4.1" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Qubex.API\Qubex.API.csproj" />
+      <ProjectReference Include="..\Qubex.TrackingAPI\Qubex.TrackingAPI.csproj" />
     </ItemGroup>
 
 </Project>
